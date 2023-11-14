@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Tue Nov 14 14:33:11 2023
@@ -13,11 +13,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.csv', 'rb'))
 
-heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.csv','rb'))
 
-parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.csv', 'rb'))
 
 
 
